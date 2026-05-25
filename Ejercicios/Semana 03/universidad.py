@@ -32,4 +32,5 @@ class Universidad:
     def jugar(self):
         print("Se puede jugar en la universidad.")
         
-utec = Universidad("Logo,jpg", "TICS,Ingeniería Industrial,Ingeniería en Mecatrónica,Contaduría,Desarrollo de negocios, Fisioterapia", "Santiago", "Biblioteca, Cafetería, Psicología", "Taller de voleibol,Futbol,Basquetbol,Guitarra,Danza","Edificio C,K,J", "50", "Tito Dorantes", "Presencial", "Tesina")
+utec = Universidad("UTEC.jpg", "TICS,Ingeniería Industrial,Ingeniería en Mecatrónica,Contaduría,Desarrollo de negocios, Fisioterapia", "Santiago", "Biblioteca, " \
+"Cafetería, Psicología", "Taller de voleibol,Futbol,Basquetbol,Guitarra,Danza","Edificio C,K,J", "50", "Tito Dorantes", "Presencial", "Tesina")

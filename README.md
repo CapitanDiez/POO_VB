@@ -39,3 +39,17 @@ Sincroniza los cambios realizados en el repositorio.
 ````shell
 git push -u origin main
 ````
+
+## 5. Agregar Documentación a los métodos
+
+Agregar un  **Docstring** a los métodos generados.
+
+´´´´Python
+def metodo(self):
+"""
+Se describe el método.
+
+Args: (Argumentos)
+Se describen los argumentos.
+Return:
+Se describen lo que regresa el return.

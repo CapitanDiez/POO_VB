@@ -22,8 +22,6 @@ class PersonajeJuego:
         print(f"Rival: {self.rival}")
         print(f"Debilidad: {self.debilidad}")
 
-
-
     def atacar(self):
         print("El personaje puede atacar a sus enemigos")
 
@@ -39,5 +37,4 @@ class PersonajeJuego:
     def comer(self):
         print("El personaje está comiendo")
 
-
-goku = PersonajeJuego("Goku", "Kamehameha", "Gi naranja", "Super Saiyan Dios", "Whis, Roshi", "Gohan, Chi-Chi", 40,"Freezer" "Vegeta", "Cola")
+goku = PersonajeJuego("Goku", "Kamehameha", "Gi naranja", "Super Saiyan Dios", "Whis, Roshi", "Gohan, Milk, Goten", "40","Freezer" "Vegeta", "Cola")
